@@ -18,3 +18,23 @@ To run this project, you need Python 3.5.1 or later. The project also requires t
    ```bash
    pip install jupyter
    pip install notebook
+
+2. Install NLTK:
+   ```bash
+   pip install nltk
+After installing NLTK, you need to download the necessary datasets:
+```bash
+   import nltk
+   nltk.download()
+
+
+### Key Functions
+- `getidf(token)`: Returns the inverse document frequency of a token.
+- `getweight(filename, token)`: Returns the TF-IDF weight of a token in a specified document.
+- `query(qstring)`: Returns the filename and score of the document that best matches the query.
+
+## Dataset
+The dataset includes 30 .txt files, each containing one of the U.S. Presidential inaugural addresses. The files are located in the `US_Inaugural_Addresses` directory.
+
+## License
+This project is licensed under the terms of the MIT license.
