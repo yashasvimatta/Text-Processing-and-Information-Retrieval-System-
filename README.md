@@ -12,15 +12,18 @@ To run this project, you need Python 3.5.1 or later. The project also requires t
    ```bash
    pip install jupyter
    pip install notebook
+   ```
 
 2. Install NLTK:
    ```bash
    pip install nltk
+   ```
    
 After installing NLTK, you need to download the necessary datasets:
-   ```bash
+   ```python
    import nltk
-   nltk.download()```
+   nltk.download()
+   ```
 
 ## Features
 - **Text Processing:** Converts text to lower case, tokenizes, removes stopwords, and stems the words.
