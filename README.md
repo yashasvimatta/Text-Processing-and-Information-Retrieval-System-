@@ -22,10 +22,11 @@ To run this project, you need Python 3.5.1 or later. The project also requires t
 2. Install NLTK:
    ```bash
    pip install nltk
+   
 After installing NLTK, you need to download the necessary datasets:
    ```bash
-      import nltk
-      nltk.download()
+   import nltk
+   nltk.download()
 
 ### Key Functions
 - `getidf(token)`: Returns the inverse document frequency of a token.
