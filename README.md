@@ -20,7 +20,7 @@ To run this project, you need Python 3.5.1 or later. The project also requires t
 After installing NLTK, you need to download the necessary datasets:
    ```bash
    import nltk
-   nltk.download()
+   nltk.download()```
 
 ## Features
 - **Text Processing:** Converts text to lower case, tokenizes, removes stopwords, and stems the words.
